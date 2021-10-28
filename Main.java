@@ -1,5 +1,7 @@
 package oopproject1;
 
+
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -7,27 +9,24 @@ import java.awt.event.ActionListener;
 
 public class Main extends JFrame implements ActionListener
 {
-    private ImageIcon icon,l;
     private Container c;
 
     private JButton but1,but2,but3,but4,but5,but6,but7,but8,but9,but10,but11,but12,but14;
 
-    Main()
+   Main()
 
     {
-        PDJ();
+
+        Try();
     }
 
-    public void PDJ ()
+    public void Try ()
 
     {
-        icon = new ImageIcon(getClass().getResource("calculator.png"));
-        l = new ImageIcon(getClass().getResource("Length.jpeg"));
-
-        this.setIconImage(icon.getImage());
         c = this.getContentPane();
         c.setLayout(null);
-        c.setBackground(Color.WHITE);
+        c.setBackground(Color.darkGray);
+
 
         but1 = new JButton("Calculator");
         but1.setBounds(100,50,200,50);
