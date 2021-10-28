@@ -1,6 +1,7 @@
 package oopproject1;
 import javax.swing.JOptionPane;
 
+//Currency rate last updated: 22.09.21
 
 public class CurrencyConverter {
 
