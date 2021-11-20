@@ -20,6 +20,9 @@ Features:
 10. Temperature Converter
 11. Weight Converter
 
+Supervisor:
+Adil Ahmed Chowdhury
+
 Contributors:
 1. Md. Shazadur Rahman
 2. Pritom Mitro Pranto
